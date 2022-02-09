@@ -1,0 +1,23 @@
+{
+  "name": "yashgit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d yashint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khilaadi83/yashint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://khilaadi83.github.io/build",
+  "bugs": {
+    "url": "https://github.com/khilaadi83/yashint/issues"
+  },
+  "homepage": "https://github.com/khilaadi83/yashint#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
