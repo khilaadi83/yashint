@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d yashint"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage":"https://khilaadi83.github.io/build",
+  "homepage":"https://khilaadi83.github.io/yashint",
   "bugs": {
     "url": "https://github.com/khilaadi83/yashint/issues"
   },
