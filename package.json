@@ -12,11 +12,10 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage":"https://khilaadi83.github.io/yashint",
+  "homepage": "https://github.com/khilaadi83/yashint#readme",
   "bugs": {
     "url": "https://github.com/khilaadi83/yashint/issues"
   },
-  "homepage": "https://github.com/khilaadi83/yashint#readme",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
