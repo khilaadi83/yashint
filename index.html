@@ -26,7 +26,8 @@
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+  <!-- Animate on scroll cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/aos.css">
@@ -129,8 +130,8 @@
       </div>
     </div>
   </div>
-
-  <div class="container">
+  
+  <div class="container" data-aos="flip-up" data-aos-duration="2000">
     <div class="row align-items-center no-gutters align-items-stretch overlap-section">
       <div class="col-md-12 shadow-me">
         <div class="feature-1 pricing h-100 text-center">
@@ -198,8 +199,8 @@
 
 
 
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me">
-          <div class="unit-4 d-flex">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me" data-aos="fade-up" data-aos-duration="2000">
+          <div class="unit-4 d-flex"  >
             <div class="unit-4-icon mr-4 "><span class="text-primary flaticon-travel "></span></div>
             <div>
               <h3>Import Export </h3>
@@ -212,7 +213,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me" data-aos="fade-down" data-aos-duration="2000">
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary flaticon-sea-ship-with-containers"></span></div>
             <div>
@@ -225,7 +226,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 onhover shadow-me"data-aos="fade-right" data-aos-duration="2000">
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck"></span></div>
             <div>
@@ -241,7 +242,7 @@
         
 
       
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me" data-aos="fade-right" data-aos-duration="2000">
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck myhover"></span></div>
             <div>
@@ -254,7 +255,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me" data-aos="fade-left" data-aos-duration="2000">
           <div class="unit-4 d-flex">
             <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck"></span></div>
             <div>
@@ -268,7 +269,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me ">
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 mt-4 onhover shadow-me " data-aos="fade-right" data-aos-duration="2000">
           <div class="unit-4 d-flex ">
             <div class="unit-4-icon mr-4"><span class="text-primary flaticon-frontal-truck"></span></div>
             <div>
@@ -511,7 +512,7 @@
 
 
 
-  <div class="container">
+  <div class="container " data-aos="flip-left" data-aos-duration="2000">
     <h1 class="text-primary text-center" data-aos="fade">Our Progress</h1>
     <p class="color-black-opacity-5">Our fast paced growth is attributed to our customer centric approach. We follow
       customer – centered culture across the organization and our distribution channel.</p>
@@ -736,7 +737,7 @@
   </footer>
 
 
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
@@ -762,6 +763,7 @@
 
   <!-- Custom whatsapp Button -->
   <script type="text/javascript">
+     AOS.init();
     /* (function () {
       var options = {
         whatsapp: "8390602363", // WhatsApp number
