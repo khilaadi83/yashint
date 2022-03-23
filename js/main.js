@@ -181,7 +181,7 @@
  						items: 3
  					},
  					1200: {
- 						margin: 0,
+ 						margin: 1,
  						stagePadding: 0,
  						nav: true,
  						items: 4

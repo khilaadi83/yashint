@@ -1677,6 +1677,7 @@ p {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  
 }
 
 .unit-1 img,
@@ -1707,21 +1708,30 @@ p {
   -o-transition: .3s all ease;
   transition: .3s all ease;
   color: rgba(255, 255, 255, 0.5);
+  background:  linear-gradient(to bottom, #334d50, #cbcaa5);
 }
 
 .unit-1:hover p {
   opacity: 1;
   visibility: visible;
+  
+
 }
 
 .unit-1:hover .unit-1-text {
-  bottom: 30px;
+  bottom: 10px;
+  
 }
 
-.unit-1:hover img {
+.unit-1:hover img  {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+
+  
+
+  
+  
 }
 
 .overlap-section {
