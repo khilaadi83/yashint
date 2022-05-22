@@ -12874,17 +12874,25 @@ section#contact form#contactForm :-ms-input-placeholder {
     margin-top: 0.5rem;
   }
   .service-section .container{
-    margin-top: 8rem;
+    margin-top: 15rem;
   }
   .masthead.header-masthead{
     padding-top: 16.5rem;
   }
+  header.masthead .masthead-subheading {
+
+    color: #ffc800;
+    font-size: 1rem;
+
+  }
+  
 }
 
 @media (max-width: 481px) {
   header.masthead .masthead-subheading {
 
     color: #ffc800;
+    font-size: 1rem;
 
   }
 }
