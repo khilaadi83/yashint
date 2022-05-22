@@ -12868,10 +12868,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 200px) and (max-device-width: 481px) {
+@media (min-width: 200px) and (max-width: 481px)  {
   header.masthead .masthead-heading {
     font-size: 2.25rem;
-    margin-top: 12.5rem;
+    margin-top: 0.5rem;
+  }
+  .service-section .container{
+    margin-top: 8rem;
+  }
+  .masthead.header-masthead{
+    padding-top: 16.5rem;
   }
 }
 
