@@ -286,7 +286,7 @@
 
                         <div class="card-body">
                             <h5 class="card-title text-muted">Dynamic Website <span
-                                    class="badge badge-danger wow animate__animated animate__pulse" data-wow-delay="5s"">New</span></h5>
+                                    class="badge badge-danger wow animate__animated animate__pulse" data-wow-delay="5s" id="badge-dynamic">New</span></h5>
                             <table class="table table-sm">
                                 <thead>
                                     <tr>
@@ -1127,7 +1127,13 @@
               new WOW().init();
               </script>
     
+<script>
 
+    setInterval(() => {
+        document.getElementById("badge-dynamic").classList.toggle("bg-primary");
+    }, 1000);
+
+</script>
 
 </body>
 
