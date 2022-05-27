@@ -5756,6 +5756,7 @@ fieldset:disabled .btn {
   background-color: #ffc800;
   transition: width 0.6s ease;
 
+
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12966,7 +12967,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #fff;
+    background: #ff7200b5;
     position: absolute;
     top: -5px;
     left: 0;
