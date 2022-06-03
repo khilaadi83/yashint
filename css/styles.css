@@ -13034,7 +13034,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/about/close-up-image-programer-working-his-desk-office.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -13042,4 +13042,16 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .tech-section{
   
+}
+
+.wrapper {
+  position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.wrapper a{
+  color:green;
+  font-size: 1.5rem;
 }
