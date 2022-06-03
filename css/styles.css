@@ -13028,4 +13028,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 @keyframes animate-positive{
     0%{ width: 0; }
 }
-License Terms
+
+.heady{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.tech-section{
+  
+}
